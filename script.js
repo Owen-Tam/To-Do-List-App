@@ -87,6 +87,7 @@ const createNoMoreMsg = function () {
 toDoBox.addEventListener("click", function (e) {
   if (e.target.classList.contains("fa-trash")) {
     toDoList.splice(e.target.dataset.listNum, 1);
+    toDoListTime.splice(e.target.dataset.listNum, 1);
     displayToDo(toDoList);
     calcTasksRemain();
     if (toDoList.length === 0) {
