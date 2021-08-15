@@ -94,6 +94,11 @@ button {
 .toDo i:hover {
   color: red;
 }
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 input:focus {
   outline: none;
 }
