@@ -159,6 +159,9 @@ input:focus {
   }
 }
 @media (max-width: 500px) {
+  .container {
+    height: 120vh;
+  }
   .toDoSection {
     width: 90%;
     padding: 0.8rem;
@@ -166,6 +169,9 @@ input:focus {
   .toDo div.task {
     margin-right: 10px;
     padding: 0.2rem 0.7rem;
+  }
+  .toDoOpContainer {
+    padding: 1.1rem;
   }
   .toDo h4 {
     margin-right: 0;
